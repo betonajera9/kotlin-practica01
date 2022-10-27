@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">PitagorApp</string>
+    <string name="version" translatable="false">alpha 1.0</string>
+    <string name="creator">Por Roberto Miron Najera</string>
+
+    <string name="triangle">Triangulo de pitagoras</string>
+
+    <string name="A">Valor de a</string>
+    <string name="B">Valor de b</string>
+    <string name="C">Valor de c</string>
+
+    <string name="getA">Obtener a</string>
+    <string name="getB">Obtener b</string>
+    <string name="getC">Obtener c</string>
+
+    <string name="Result">Resultado</string>
+    <string name="ResultString">El resultado es: </string>
+
+    <string name="ErrorGet">Ingrese el valor</string>
+
+    <string name="ErrorOrder"> tiene que ser mayor que </string>
+
+
+</resources>
