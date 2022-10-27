@@ -12,4 +12,5 @@
     <string name="ResultString">The result is:</string>
     <string name="ErrorGet">Enter the value</string>
     <string name="ErrorOrder"> must be greater than </string>
+    <string name="returnFormulas"> Return </string>
 </resources>

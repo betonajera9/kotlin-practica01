@@ -1,5 +1,6 @@
 package com.practica1
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import java.math.RoundingMode
+import java.text.DecimalFormat
 import kotlin.math.sqrt
 
 class GetB : Fragment() {
@@ -46,10 +49,17 @@ class GetB : Fragment() {
                 val a: Double = inputA.text.toString().toDouble()
 
                 val result: Double = sqrt(c * c - a * a)
-                textResult.setText(getString(R.string.ResultString) + result.toString())
+                val decFormat = DecimalFormat("#.###")
+                decFormat.roundingMode = RoundingMode.DOWN
+                val finalResult  = decFormat.format(result).toString()
 
-                inputC.text.clear()
-                inputA.text.clear()
+                var intent = Intent(this.context, MainActivity3::class.java).apply{
+                    putExtra("catA", a.toString())
+                    putExtra("catB", finalResult)
+                    putExtra("Hipo", c.toString())
+                }
+
+                startActivity(intent)
             }
         }
 

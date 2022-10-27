@@ -20,5 +20,8 @@
 
     <string name="ErrorOrder"> tiene que ser mayor que </string>
 
+    <string name="returnFormulas"> Regresar </string>
+
+
 
 </resources>
