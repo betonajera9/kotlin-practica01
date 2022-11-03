@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="silver">#A8A7A7</color>
+    <color name="ruber">#CC527A</color>
+    <color name="raspberry">#E8175D</color>
+    <color name="davysGrey">#474747</color>
+    <color name="wine">#880E4F</color>
+    <color name="jet">#363636</color>
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+</resources>

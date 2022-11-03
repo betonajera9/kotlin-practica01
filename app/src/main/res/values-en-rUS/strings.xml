@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="creator">Por Roberto Miron Najera</string>
+    <string name="triangle">Pythagoras triangle</string>
+    <string name="A">Value of a</string>
+    <string name="B">Value of b</string>
+    <string name="C">Value of c</string>
+    <string name="getA">Get a</string>
+    <string name="getB">Get b</string>
+    <string name="getC">Get c</string>
+    <string name="Result">Result</string>
+    <string name="ResultString">The result is:</string>
+    <string name="ErrorGet">Enter the value</string>
+    <string name="ErrorOrder"> must be greater than </string>
+    <string name="returnFormulas"> Return </string>
+</resources>
